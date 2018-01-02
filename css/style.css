@@ -1,0 +1,149 @@
+/*
+Author: Saifur Rahman Chowdjury
+E-mail: saifu25saif@gmail.com
+Contact: +880-1816-120934
+Website: http://saif-rahman.com
+*/
+
+/* for mobile responsiveness */
+@media (max-width: 767px) {
+    
+}
+
+/* for tab responsiveness */
+@media (max-width: 1200px) and (min-width: 767px) {
+
+}
+
+/* for desktop responsiveness */
+@media (min-width: 1200px){
+    
+}
+
+/* slider part start */
+/* top bar start */
+.slider_wrapper{
+    background-image: url(../images/face_transparent.png), url(../images/saifu-saif-c.JPG);
+    background-position: center, center;
+    background-attachment: fixed, fixed;
+    background-size: cover;
+    height: 550px;
+}
+.slider_wrapper>.row>.container>.menu{
+    margin-top: 30px;
+}
+.slider_wrapper>.row>.container>.menu>.logo>img{
+    width: 120px;
+}
+.slider_wrapper>.row>.container>.menu>.logo>p{
+    color: white;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+.slider_wrapper>.row>.container>.menu>.logo>p>span{
+    color: #F5600F;
+}
+
+.slider_wrapper>.row>.container>.menu>.menu_bar{
+    color: white;
+    padding-top: 40px;
+    font-size: 14px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+}
+.slider_wrapper>.row>.container>.menu>.menu_bar>.list-inline>li>a{
+    padding: 15px 25px;
+    background-color: #4A5057;
+    color: #A9A9A9;
+    font-weight: 600;
+    border: 1px #454952;
+    transition: all 0.5s;
+    text-shadow: 0px 0px 10.9px #F7600E;
+    box-shadow: 0 5px 10px #A9A9A9;
+}
+.slider_wrapper>.row>.container>.menu>.menu_bar>.list-inline>li>a:hover{
+    color: #F7600E;
+    text-decoration: none;
+    border-bottom: 3px solid #F7600E;
+    margin-top: -18px;
+    text-shadow: 0px 0px 10.9px #F7600E;
+    box-shadow: 0 5px 15px #F7600E;
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+/* top bar end */
+
+/* slider part start */
+.slider_content> h1{
+    color: white;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 50px;
+}    
+.slider_content> h1> span{
+    color: #F5600F;
+}
+.slider_content> p{
+    color: white;
+    text-shadow: 5px 5px 10px #F5600F;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 30px;
+    font-weight: 500;
+}
+.social_link>ul>li>a>img{
+    width: 30px;
+    height: 30px;
+    margin-top: 25px;
+}
+.indicator> img{
+    width: 20px;
+    margin-top: 40px;
+    transition: all 1.5s;
+}
+.indicator> img:hover{
+    transform: rotate(360deg);
+}
+/* slider part end */
+
+/* profile part start */
+.profile_wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ebebe0;
+    
+}
+.about_me>div>img{
+    width: 200px;
+    border: 10px solid #D3DFED;
+    border-radius: 30px;
+    margin-top: 60px;
+}
+h2{
+    font-size: 54px;
+    color: #22A39F;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.lead{
+    color: #727878;
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.profile_line{
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+}
+h3{
+    font-family: 'Open Sans', sans-serif !important;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 300;
+    color: #22A39F;
+}
+
+/* profile part end */
